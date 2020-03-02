@@ -19,6 +19,5 @@ Pod::Spec.new do |s|
     s.source_files = 'SecureFoundation/**/*.{h,m}'
     s.framework = 'Security'
 
-    s.platform = :ios
     s.requires_arc = true
 end
